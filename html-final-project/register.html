@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Register</title>
+        <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+        
+
+    </head>
+    <body>
+        <div class="container">
+            <div class="nav-wrapper">
+              <div class="left-side">
+                <div class="nav-link-wrapper active-nav-link">
+                  <a href="index.html">Home</a>
+                </div>
+        
+                <div class="nav-link-wrapper">
+                  <a href="about.html">About</a>
+                </div>
+                
+                <div class="nav-link-wrapper">
+                  <a href="contact.html">Contact</a>
+                </div>
+                
+              </div>
+              
+            </div>
+        
+              <div class="right-side">
+                <div class="brand">
+                  SAMUEL NDUBUISI
+                </div>
+              </div>
+            </div>
+        
+        <div class="container">
+            <h1>Start registration</h1>
+            <p></p>
+            <div class="contact-box">
+                <div class="contact-left">
+                    <h3>Complete your registration</h3>
+                    <form>
+
+                        <div class="input-row">
+                            <div class="input-group">
+                                <label for="Name"></label>
+                                <input type="text" placeholder="John Doe">
+                            </div>
+                            <div class="input-group">
+                                <label for="Phone"></label>
+                                <input type="text" placeholder="+1 330 675 2345">
+                            </div>
+ 
+                        </div>
+                        <div class="input-row">
+                            <div class="input-group">
+                                <label for="Email"></label>
+                                <input type="text" placeholder="johndoe@yahoo.com">
+                            </div>
+                            <div class="input-group">
+                                <label for="Course"></label>
+                                <input type="text" placeholder="Internet tools">
+                            </div>
+ 
+                        </div>
+
+                        <label>What are your goals?</label>
+                        <textarea rows="5" placeholder="Goals"></textarea>
+                        
+                        <button type="submit">Complete</button>
+                    </form>
+
+
+                </div>
+             
+                    <style>
+                        /* Body styles*/
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    background: #bed6ea;
+    font-size: 14px;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  .container {
+    width: 80%;
+    margin: 50px auto;
+  }
+  .contact-box {
+    background: #c08e8e;
+    display: flex;
+  }
+  .contact-left {
+    flex-basis: 60%;
+    padding: 40px 60px;
+  }
+  .contact-right {
+    flex-basis: 40%;
+    padding: 40px;
+    background: #256a9c;
+    color: rgb(24, 2, 2);
+  }
+  h1 {
+    margin-bottom: 10px;
+  }
+  .container p {
+    margin-bottom: 40px;
+  }
+  
+  /* Form Styles */
+  .input-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .input-row .input-group {
+    flex-basis: 45%;
+  }
+  input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+  }
+  textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  label {
+    margin-bottom: 6px;
+    display: block;
+    color: #201273;
+  }
+  
+  /* Button Styles*/
+  button {
+    background: #201273;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: #fff;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 30px;
+    box-shadow: 0px 5px 15px 0px rgba(28,0,181,0.3);
+  
+  }
+  
+  .contact-left h3 {
+    color: #93b7bf;
+    font-weight: 600;
+    margin-bottom: 30px; 
+  }
+  .contact-right h3 {
+    font-weight: 600;
+    margin-bottom: 30px; 
+  }
+  
+  /* Contact Table Styles*/
+  tr td:first-child {
+    padding-right: 20px;
+  }
+  tr td:first-child {
+    padding-top: 20px;
+  }
+  .nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 38px;
+}
+
+.left-side {
+  display: flex;
+}
+
+.nav-wrapper > .left-side > div {
+  margin-right: 20px;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+.nav-link-wrapper {
+  height: 22px;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.5s;
+}
+
+.active-nav-link {
+  border-bottom: 1px solid black;
+}
+
+.active-nav-link a {
+  color: black !important;
+}
+
+.nav-link-wrapper a {
+  color: #080606;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover {
+  border-bottom: 1px solid black;
+}
+
+.nav-link-wrapper a:hover {
+  color: black;
+}
+                    </style>
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
